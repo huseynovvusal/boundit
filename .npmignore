@@ -23,5 +23,6 @@ assets
 *.md
 src
 /.vscode/
+/.idea/
 *.config.js
 *.config.ts

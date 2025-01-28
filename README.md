@@ -1,8 +1,6 @@
 # Boundit
 
-[![npm version](https://badge.fury.io/js/boundit.svg)](https://badge.fury.io/js/boundit)
-[![npm downloads](https://img.shields.io/npm/dm/boundit.svg)](https://www.npmjs.com/package/boundit)
-[![License](https://img.shields.io/npm/l/boundit.svg)](https://github.com/huseynovvusal/boundit/blob/main/LICENSE)
+[![npm version](https://badge.fury.io/js/boundit.svg)](https://badge.fury.io/js/boundit) [![npm downloads](https://img.shields.io/npm/dm/boundit.svg)](https://www.npmjs.com/package/boundit) [![License](https://img.shields.io/npm/l/boundit.svg)](https://github.com/huseynovvusal/boundit/blob/main/LICENSE)
 
 🔍 JavaScript and TypeScript implementation of `lower_bound` and `upper_bound` for efficient data searching.
 
@@ -21,13 +19,13 @@ npm install boundit
 Returns the index of the first element in the array which is greater than or equal to the target.
 
 ```typescript
-import { lowerBound } from 'boundit';
+import { lowerBound } from "boundit"
 
-const array = [1, 2, 4, 4, 5, 6];
-const target = 4;
-const index = lowerBound(array, target);
+const array = [1, 2, 4, 4, 5, 6]
+const target = 4
+const index = lowerBound(array, target)
 
-console.log(index); // Output: 2
+console.log(index) // Output: 2
 ```
 
 ### upperBound
@@ -35,13 +33,13 @@ console.log(index); // Output: 2
 Returns the index of the first element in the array which is greater than the target, or the length of the array if no such element is found.
 
 ```typescript
-import { upperBound } from 'boundit';
+import { upperBound } from "boundit"
 
-const array = [1, 2, 4, 4, 5, 6];
-const target = 4;
-const index = upperBound(array, target);
+const array = [1, 2, 4, 4, 5, 6]
+const target = 4
+const index = upperBound(array, target)
 
-console.log(index); // Output: 4
+console.log(index) // Output: 4
 ```
 
 ### binarySearch
@@ -49,13 +47,13 @@ console.log(index); // Output: 4
 Binary search is a fast search algorithm with run-time complexity of O(log n). This search algorithm works on the principle of divide and conquer. For this algorithm to work properly, the data collection should be in the sorted form.
 
 ```typescript
-import { binarySearch } from 'boundit';
+import { binarySearch } from "boundit"
 
-const array = [1, 2, 4, 4, 5, 6];
-const target = 5;
-const index = binarySearch(array, target);
+const array = [1, 2, 4, 4, 5, 6]
+const target = 5
+const index = binarySearch(array, target)
 
-console.log(index); // Output: 4
+console.log(index) // Output: 4
 ```
 
 ## License
