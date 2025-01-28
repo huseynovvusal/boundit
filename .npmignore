@@ -26,3 +26,5 @@ src
 /.idea/
 *.config.js
 *.config.ts
+tsconfig.json
+*.tsbuildinfo

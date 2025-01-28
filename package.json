@@ -1,6 +1,6 @@
 {
   "name": "boundit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🔍 JavaScript and TypeScript implementation of lower_bound and upper_bound for efficient data searching.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
