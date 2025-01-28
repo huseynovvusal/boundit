@@ -1,0 +1,21 @@
+# Dependency Directories
+node_modules
+
+# Build Files
+dist
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Python
+*.py
+
+# C++
+*.cpp
+
+# Development
+/.vscode/
+/.idea/
